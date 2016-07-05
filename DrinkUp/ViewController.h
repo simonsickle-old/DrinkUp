@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITextField *textViewBMI;
-@property (weak, nonatomic) IBOutlet UITextField *textViewWeight;
+// User info
+@property (weak, nonatomic) IBOutlet UILabel *labelWeight;
+@property (weak, nonatomic) IBOutlet UILabel *labelBMI;
+@property (weak, nonatomic) IBOutlet UILabel *labelDailyGoal;
+@property (weak, nonatomic) IBOutlet UILabel *labelAmountDrank;
+
+// Add water to health kit
 @property (weak, nonatomic) IBOutlet UITextField *textViewAddWater;
 @property (weak, nonatomic) IBOutlet UIButton *btnLogWater;
 @end
